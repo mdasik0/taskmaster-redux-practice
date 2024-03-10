@@ -23,7 +23,7 @@ const AddTaskModel = ({ isOpen, setIsOpen }) => {
     <Model isOpen={isOpen} setIsOpen={setIsOpen} title="Add a Task">
       <form onSubmit={handleSubmit(onsubmit)}>
         <div className="flex flex-col mb-2">
-          <label htmlFor="title">Title</label>
+          <label htmlFor="title">Titles</label>
           <input
             type="text"
             id="title"
